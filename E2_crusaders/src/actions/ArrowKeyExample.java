@@ -29,7 +29,8 @@ public class ArrowKeyExample {
 
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
-
+                // act.keyUp(Keys.ENTER).build().perform();
+		
 		Thread.sleep(5000);
 		driver.quit();
 	}
